@@ -78,13 +78,13 @@ To make this program run on startup in Ubuntu, you can create a systemd service 
    ```ini
    [Unit]
    Description=Website Monitoring Service
-   After=network.target
 
    [Service]
-   Type=simple
    ExecStart=/usr/bin/python3 /path/to/monitoring.py
    WorkingDirectory=/path/to/program/directory
    User=your_username
+   Restart=always
+   RestartSec=5
 
    [Install]
    WantedBy=multi-user.target
