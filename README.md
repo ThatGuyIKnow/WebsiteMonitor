@@ -1,5 +1,3 @@
-Certainly! Here's a README for your program that includes instructions on how to run it on startup in Ubuntu:
-
 # Website Monitoring Program
 
 This program is designed to monitor specific websites for changes in their content and send email notifications when changes are detected. It consists of two parts: a graphical user interface (GUI) for configuring the monitoring settings and a background script for continuous monitoring based on the configured settings.
